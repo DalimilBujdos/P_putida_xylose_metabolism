@@ -1,2 +1,2 @@
-# P_putida_xylose_metabolism
-Contains data and scripts to investigate xylose metabolism in Pseudomonas putida KT2440
+# *Pseudomonas putida* xylose metabolism
+This repo mainly contains two models that have been used to investigate the xylose metabolism of *Pseudomonas putida* KT2440. There are two models: iJN1463_xylose_met_FBA.json and iJN1463_xylose_met_MFA.json. The former is a standard genome-scale metabolic model of *P. putida* but with an added pathway to utilize xylose. The xylose uptake in this model is not constrained. The latter is a model that is constrained with metabolic flux analysis (MFA) data obtained from a MFA analysis of our engineered *P. putida* grown on xylose. These two models were constructed for and used in our paper (https://www.biorxiv.org/content/10.1101/2023.05.19.541448v1).
